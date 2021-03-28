@@ -34,8 +34,39 @@
             </form>
           </div>
         </div>
-    <!-- Add Weather Card divs below; inside main --> 
+        <!-- Add Weather Card divs below; inside main -->
+
+        <div class="col-12 col-md-8">
+          <div class="card hidden" id="current-weather-card">
+            <h2 class="card-header" id="weather-status"></h2>
+            <div class="card-body" id="current-weather"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex-row justify-space-between col-12">
+        <div class="col-12 col-md-4" id="search">
+          <div class="card" id="history" style="display: none">
+            <h3 class="card-header text-uppercase">
+              Search History
+              <i id="trash" class="fas fa-trash" title="Clear History"></i>
+            </h3>
+            <div class="card-body" id="history-buttons"></div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-8">
+          <div class="card hidden" id="five-day-card">
+            <h2 class="card-header" id="five-day-head">5-Day Forecast</h2>
+            <div
+              class="card-body flex-row justify-space-around"
+              id="five-day-body"
+            ></div>
+          </div>
+        </div>
+      </div>
     </main>
-  <!-- Add JS link here -->
+    <!-- Add JS link here -->
+    <script src="./assets/js/script.js"></script>
   </body>
 </html>
