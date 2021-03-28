@@ -1,8 +1,8 @@
 /* Set color profiles */
 :root {
-  --primary: #d0ccda;
-  --secondary: #a19cae;
-  --tertiary: #7c7885;
+  --primary: #eeebf5;
+  --secondary: #a5acb8;
+  --tertiary: hsl(213, 4%, 47%);
   --light-dark: #69666f;
   --dark: #332e3a;
   --border-radius: 0.3rem;

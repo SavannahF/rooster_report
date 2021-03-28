@@ -30,7 +30,7 @@ var formSubmitHandler = function (event) {
     getWeatherInfo(cityname);
     cityNameInputEl.value = "";
   } else {
-    alert("Please enter a City name");
+    alert("Please enter the name of a City in the Search field!");
   }
 };
 
