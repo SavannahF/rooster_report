@@ -2,7 +2,7 @@
 
 ## Description
 
-The purpose of this project is to create a weather application that allows a user to save data for each city searched, using local storage. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery and the [Moment.js](https://momentjs.com/) library to work with date and time.
+The purpose of this project is to create a weather application that allows a user to save data for each city searched, using local storage and the OpenWeather API.
 
 <!-- Published URL -->
 
@@ -29,9 +29,9 @@ Visit the github-hosted webpage for the user experience.
 
 ## Instructions
 
-The user enters and saves text into each of the hourly fields. Data entered and Saved (by clicking on the blue storage button) is then saved to the browser's local storage.
+The user enters a city name, which, upon button click "Get Weater", will generate a 5-day forcast for that city. The search history is saved and can be recalled upon a click to that search history term.
 
-Past hours are displayed in gray, present in red, and future hours are green.
+In the generated cards, weather information is displayed along with tes UV index, which is colored green, yellow, red, depending on severity.
 
 ## Websites
 
