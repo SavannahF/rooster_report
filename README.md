@@ -12,10 +12,8 @@ Screen Shots can be found below:
 
 <!-- INSERT FINAL SCREENSHOTS HERE -->
 
-![Front Page (top half)](./assets/FRONT_PAGE.png)
-![If Present Hour is 2pm](./assets/PRESENT_HOUR_2PM.png)
-![P element clicked for input](./assets/INPUT_DATA.png)
-![Saved 4pm Task](./assets/SAVED_DATA.png)
+![ALERT](./assets/images/ALERT.jpg)
+![RESULTS](./assets/images/RESULTS.jpg)
 
 ## Installation
 
