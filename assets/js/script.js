@@ -218,7 +218,7 @@ var buttonClickHandler = function (event) {
   }
 };
 
-// Clear Search History
+// Clear Search  History
 var clearHistory = function (event) {
   localStorage.removeItem("weatherSearch");
   historyCardEl.setAttribute("style", "display: none");
