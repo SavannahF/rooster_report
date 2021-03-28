@@ -6,7 +6,7 @@ The purpose of this project is to create a weather application that allows a use
 
 <!-- Published URL -->
 
-https://SavannahF.github.io/Daily-Task-Manager/
+https://SavannahF.github.io/rooster_report/
 
 Screen Shots can be found below:
 
