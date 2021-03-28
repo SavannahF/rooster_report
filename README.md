@@ -12,6 +12,7 @@ Screen Shots can be found below:
 
 <!-- INSERT FINAL SCREENSHOTS HERE -->
 
+![HOME](./assets/images/HOME.jpg)
 ![ALERT](./assets/images/ALERT.jpg)
 ![RESULTS](./assets/images/RESULTS.jpg)
 
