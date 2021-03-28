@@ -27,7 +27,7 @@ Visit the github-hosted webpage for the user experience.
 
 ## Instructions
 
-The user enters a city name, which, upon button click "Get Weater", will generate a 5-day forcast for that city. The search history is saved and can be recalled upon a click to that search history term.
+The user enters a city name, which, upon button click "Get Weater", will generate a 5-day forecast for that city. The search history is saved and can be recalled upon a click to that search history term.
 
 In the generated cards, weather information is displayed along with tes UV index, which is colored green, yellow, red, depending on severity.
 
