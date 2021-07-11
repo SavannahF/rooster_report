@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REDUX</title>
+    <!-- Bootstrap-->
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+    crossorigin="anonymous"
+    />
+    <!-- Font Awesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- CSS Stylesheet-->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+    <header class="hero">
+        <h1 class="app-title">Rooster Report</h1>
+    </header>
+    <main class="container-fluid">
+        <!-- Div inside main, all 4 cards -->
+        <div class="row">
+            <!-- container for City Search and History -->
+          <div class="col-12 col-md-4">
+            <div class="card">
+            <h3 class="card-header">Search Weather</h3>
+            <form id="city-form" class="card-body">
+                <!-- note "form-lable" was misspelled -->
+            <label class="form-label" for="cityname">City Name</label>
+            <input
+                class="form-input"
+                name="city"
+                id="city-name"
+                type="text"
+                autofocus="true"
+                placeholder="Atlanta"
+                aria-describedby="searchBtn"
+                />
+                <button
+                    class="btn btn-outline-secondary"
+                    id="search-bt"
+                    type="submit"
+                ><i class="fa fa-search"></i>
+                <!-- icon for the search button -->
+                </button>
+              </form>
+        </div>
+        <!-- History -->
+        <div id="search">
+            <div class="card" id="history" style="display: none">
+            <h3 class="card-header">
+                History
+                <i id="trash" class="fa fa-trash" title="Clear History"></i>
+            </h3>
+            <div class="card-body" id="history-buttons"></div>
+            </div>
+        </div>
+        </div>
+
+    <!-- container for Current and 5-Day Forecast -->
+    <div class="col-12 col-md-8">
+        <!-- Current Day -->
+        <img id='icon-span' />
+        <h2 class="card-header" id="weather-status"></h2>
+        <div class="card" id="current-weather-card">
+            <div class="card-body" id="current-weather">
+            </div>
+        </div>
+
+        <!-- 5-Day Forecast -->
+        <div>
+          <div class="card hidden" id="forecast-card">
+            <h2 class="card-header" id="forecast-head">5-Day Forecast</h2>
+            <div
+              class="card-body"
+              id="forecast-body"></div>
+          </div>
+        </div>
+        </div>
+    </div>
+    </main>
+    <!-- JS -->
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
